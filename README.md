@@ -66,11 +66,12 @@ To write a program for Frequency Modulation and Demodulation using SCILAB and to
 <img width="512" height="365" alt="image" src="https://github.com/user-attachments/assets/dfe6bc64-2b6f-4afa-ae79-95391859ab04" />
 
 ## PROGRAM
-Am = 8.8;
-fm = 863;
-fs = 863000;
-Ac = 17.6;
-fc = 8630;
+```
+Am = 6.7;
+fm = 537;
+fs = 537000;
+Ac = 13.4;
+fc = 5370;
 b = 5; 
 t = 0:1/fs:2/fm;
 m = Am * cos(2 * 3.14 * fm * t);
@@ -104,14 +105,19 @@ plot(t_demod, demod);
 title('Demodulated Signal');
 xlabel('Time (s)');
 ylabel('Amplitude');
+
+```
 ## TABULATION
-<img width="592" height="596" alt="image" src="https://github.com/user-attachments/assets/91bb0203-db60-4106-ae37-ddfffe755598" />
+![WhatsApp Image 2025-11-20 at 18 31 56_325a30d2](https://github.com/user-attachments/assets/3f2599d9-4f32-4107-b98b-174d9687b942)
+
 
 ## CALCULATION
-<img width="419" height="387" alt="image" src="https://github.com/user-attachments/assets/7130af28-f319-4eb6-a2ab-e8e97f63243a" />
+![WhatsApp Image 2025-11-20 at 18 32 48_3c4fccb4](https://github.com/user-attachments/assets/9457ba38-26a2-40c2-b1df-082e0ae8b088)
+
 
 ## OUTPUT
-<img width="393" height="349" alt="image" src="https://github.com/user-attachments/assets/fcf788e9-ffb4-452d-bb8a-ebdd66e668d0" />
+<img width="393" height="349" alt="image" src="https://github.com/user-attachments/assets/8420d40c-406d-4ad5-bce0-bb999b9cd284" />
+
 
 ## RESULT
 Thus, the Frequency Modulation and Demodulation is successfully done and the output is experimentally verified.
